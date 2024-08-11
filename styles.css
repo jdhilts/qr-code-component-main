@@ -1,0 +1,30 @@
+https://fonts.google.com/specimen/Outfit;
+
+*, 
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(212, 45%, 89%);
+}
+
+body {
+    max-width: 1440px;
+    min-width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: column;
+}
+
+#card {
+    width: 215px;
+    height: 330px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 25%;
+    border-radius: 15px;   
+}
+
