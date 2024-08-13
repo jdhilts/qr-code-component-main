@@ -15,12 +15,12 @@ html {
 
 
 main {
-    width: 100%;
-    min-width: 215px;
-    height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center; 
+    width: 100%;
+    min-width: 215px;
+    height: auto; 
 }
 
 
@@ -39,6 +39,7 @@ main {
 #qr-code {
     width: 200px;
     height: auto;
+    object-fit: cover;
     border-radius: 15px;
     margin-bottom: 10px;
 }
@@ -48,10 +49,15 @@ aside {
 }
 
 h4 {
+    font-family: "Outfit", sans-serif;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 p {
+    font-family: "Outfit", sans-serif;
     font-size: 15px;
+    font-weight: 400;
+    color: hsl(218, 44%, 22%);
 }
 
