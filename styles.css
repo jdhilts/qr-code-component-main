@@ -18,44 +18,50 @@ main {
     display: flex;
     align-items: center;
     justify-content: center; 
-    width: 100%;
-    min-width: 215px;
-    height: auto; 
+    width: 1440px;
+    height: 960px; 
 }
 
 
 #card {
-    width: 215px;
-    height: 360px;
+    width: 320px;
+    height: 499px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px; 
     margin: auto;
     position: absolute;
-    top: 25%;
+    left: 560px;
+    top: 230.5px;
     text-align: center;
-    padding: 7px 5px 5px 5px;
+    padding: 16px;
 }
 
 #qr-code {
-    width: 200px;
-    height: auto;
+    width: 288px;
+    height: 288px;
     object-fit: cover;
     border-radius: 15px;
-    margin-bottom: 10px;
 }
 
 aside {
-    width: 200px;
+    width: 288px;
+    height: 131px;
+    padding: 16px;
 }
 
-h4 {
-    font-family: "Outfit", sans-serif;
+#header {
+    font-family: "Outfit Bold", sans-serif;
+    line-height: 120%;
     margin-bottom: 10px;
     font-weight: 700;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 16px;
 }
 
 p {
-    font-family: "Outfit", sans-serif;
+    font-family: "Outfit Regular", sans-serif;
+    letter-spacing: 0.2px;
     font-size: 15px;
     font-weight: 400;
     color: hsl(218, 44%, 22%);
