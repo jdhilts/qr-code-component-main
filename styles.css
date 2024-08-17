@@ -64,5 +64,6 @@ p {
     font-size: 15px;
     font-weight: 400;
     color: hsl(218, 44%, 22%);
+    overflow-y: auto;
 }
 
